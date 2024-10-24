@@ -2,6 +2,7 @@ import requests
 from lxml import html
 import time
 import streamlit as st
+import sklearn
 
 # Prompt the user to enter the URL
 url = input("Please enter the URL: ")
